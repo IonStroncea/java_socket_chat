@@ -1,11 +1,10 @@
-Aplicatia ruleaza pe java 11.
-Proiectul ruleaza pe IDE javaEclipse.
-Pentru a porni aplicatia este necasar la inceput in mapa Chat\src\Main de a scrie comanda "javac Client.java Server.java Persoana.java".
-Pentru a porni aplicatia server e necesar ca in mapa Chat\src de a scrie comanda "java Main.Server".
-Pentru a porni aplicatia client e necesar ca in mapa Chat\src de a scrie comanda "java Main.Client".
-Pentru a orpi orice aplicatie e necesar de a scrie in consola cuvintul "exit".
+This is a simple chat built in Java using TCP protocol.
 
-La inceput fiecare client va fi rugat sa scrie un Nickname, si doar dupa aceasta va putea scrie in chat.
+To start the application, it is necessary to write the command "javac Client.java Server.java Person.java" in the Chat\src\Main folder at the beginning.
+To start the server application, it is necessary to write the command "java Main.Server" in the Chat\src folder.
+To start the client application, it is necessary to write the command "java Main.Client" in the Chat\src folder.
+To close any application, it is necessary to write the word "exit" in the console.
 
-Este posibil de transmis mesaje direct de la server la toti utilizatorii. Pentru aceasta este simplu necesar de a tapa mesajul la consola serverului si de apasat enter. 
+At the beginning, each client will be asked to write a Nickname, and only after this will he be able to write in the chat.
 
+It is possible to send messages directly from the server to all users. For this, it is simply necessary to type the message at the server console and press enter.
